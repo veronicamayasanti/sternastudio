@@ -46,9 +46,11 @@ export default function Gallery() {
             >
               <img
                 src={img.src}
-                alt={img.label}
+                alt={img.alt || img.label}
                 loading="lazy"
                 className="w-full h-auto"
+                width="400"
+                height="400"
               />
               <div className="gallery-overlay">
                 <div className="flex items-center justify-between w-full">
@@ -84,7 +86,7 @@ export default function Gallery() {
             >
               <img
                 src={lightbox.src}
-                alt={lightbox.label}
+                alt={lightbox.alt || lightbox.label}
                 className="w-full h-auto rounded-2xl shadow-2xl"
               />
               <div className="absolute bottom-0 left-0 right-0 p-5 rounded-b-2xl bg-gradient-to-t from-black/70 to-transparent">

@@ -47,9 +47,11 @@ export default function ProductCard({ product, index = 0 }) {
       <div className="product-img-wrapper relative aspect-square bg-brand-surface">
         <img
           src={product.image}
-          alt={product.name}
+          alt={`Custom 3D printed ${product.name} by Sterna Studio – ${product.category}`}
           className="w-full h-full object-cover"
           loading="lazy"
+          width="400"
+          height="400"
         />
         {/* Badge */}
         {product.badge && (
