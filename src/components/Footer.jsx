@@ -43,14 +43,17 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <a href="#hero" className="flex items-center gap-3 mb-5 group w-fit">
-              <img
-                src="/logo.png"
-                alt="Sterna Studio – Jasa 3D Printing Custom Indonesia"
-                className="h-14 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
-                width="56"
-                height="56"
-                loading="lazy"
-              />
+              <picture>
+                <source srcSet="/logo.webp" type="image/webp" />
+                <img
+                  src="/logo.png"
+                  alt="Sterna Studio – Jasa 3D Printing Custom Indonesia"
+                  className="h-14 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
+                  width="56"
+                  height="41"
+                  loading="lazy"
+                />
+              </picture>
             </a>
             <p className="text-sm font-dm text-brand-muted/80 leading-relaxed mb-6 max-w-xs">
               Studio 3D printing kreatif dari Bogor yang memproduksi dekorasi, aksesori, keychain,

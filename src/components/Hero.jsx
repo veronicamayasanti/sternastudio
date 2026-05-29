@@ -1,13 +1,10 @@
-import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { ChevronDown, MessageCircle, Layers } from 'lucide-react';
 
-// Floating particle component
 function Particle({ style }) {
   return <div className="particle" style={style} />;
 }
 
-// Animated 3D geometric shapes
 function FloatingShape({ className, delay = 0 }) {
   return (
     <motion.div
@@ -18,18 +15,19 @@ function FloatingShape({ className, delay = 0 }) {
   );
 }
 
-export default function Hero() {
-  const particlesRef = useRef([]);
+// Fixed seed values to avoid Math.random() re-runs on every render
+const PARTICLE_DATA = [
+  { id: 0, size: 4, left: 10, delay: 1, duration: 18, opacity: 0.5 },
+  { id: 1, size: 3, left: 22, delay: 4, duration: 15, opacity: 0.35 },
+  { id: 2, size: 5, left: 35, delay: 0, duration: 20, opacity: 0.45 },
+  { id: 3, size: 2, left: 50, delay: 6, duration: 14, opacity: 0.3 },
+  { id: 4, size: 4, left: 63, delay: 2, duration: 17, opacity: 0.5 },
+  { id: 5, size: 3, left: 76, delay: 5, duration: 16, opacity: 0.4 },
+  { id: 6, size: 5, left: 88, delay: 3, duration: 19, opacity: 0.35 },
+  { id: 7, size: 2, left: 44, delay: 7, duration: 13, opacity: 0.45 },
+];
 
-  // Generate particles
-  const particles = Array.from({ length: 18 }, (_, i) => ({
-    id: i,
-    size: Math.random() * 4 + 2,
-    left: Math.random() * 100,
-    delay: Math.random() * 8,
-    duration: Math.random() * 10 + 12,
-    opacity: Math.random() * 0.5 + 0.2,
-  }));
+export default function Hero() {
 
   const handleCatalog = () => {
     document.getElementById('catalog')?.scrollIntoView({ behavior: 'smooth' });
@@ -47,7 +45,7 @@ export default function Hero() {
       <div className="glow-orb w-[300px] h-[300px] top-1/3 -right-20 bg-indigo-500/15" />
 
       {/* Particles */}
-      {particles.map((p) => (
+      {PARTICLE_DATA.map((p) => (
         <Particle
           key={p.id}
           style={{
@@ -116,14 +114,18 @@ export default function Hero() {
         >
           <div className="relative">
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-brand-primary/30 to-brand-secondary/20 blur-3xl scale-150" />
-            <img
-              src="/logo.png"
-              alt="Sterna Studio – Jasa 3D Printing Custom Indonesia"
-              className="relative h-44 md:h-56 w-auto object-contain drop-shadow-[0_0_30px_rgba(192,132,252,0.4)] animate-float"
-              width="224"
-              height="224"
-              fetchpriority="high"
-            />
+            <picture>
+                <source srcSet="/logo.webp" type="image/webp" />
+                <img
+                  src="/logo.png"
+                  alt="Sterna Studio – Jasa 3D Printing Custom Indonesia"
+                  className="relative h-44 md:h-56 w-auto object-contain drop-shadow-[0_0_30px_rgba(192,132,252,0.4)] animate-float"
+                  width="224"
+                  height="224"
+                  fetchpriority="high"
+                  decoding="sync"
+                />
+              </picture>
           </div>
         </motion.div>
 
