@@ -36,11 +36,16 @@ export default function LoadingScreen({ isLoading }) {
               className="relative"
             >
               <div className="absolute inset-0 rounded-full bg-brand-primary/20 blur-3xl scale-150 animate-pulse-glow" />
-              <img
-                src="/logo.png"
-                alt="Sterna Studio"
-                className="h-32 w-auto object-contain relative z-10 animate-float"
-              />
+              <picture>
+                <source srcSet="/logo.webp" type="image/webp" />
+                <img
+                  src="/logo.png"
+                  alt="Sterna Studio"
+                  className="h-32 w-auto object-contain relative z-10 animate-float"
+                  width="128"
+                  height="94"
+                />
+              </picture>
             </motion.div>
 
             {/* Brand name */}

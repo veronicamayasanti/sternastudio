@@ -1,29 +1,30 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, lazy, Suspense } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronUp } from 'lucide-react';
 import LoadingScreen from './components/LoadingScreen';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import About from './components/About';
-import ProductCatalog from './components/ProductCatalog';
-import WhyChooseUs from './components/WhyChooseUs';
-import Gallery from './components/Gallery';
-import CTABanner from './components/CTABanner';
-import FAQ from './components/FAQ';
-import Footer from './components/Footer';
+
+const About = lazy(() => import('./components/About'));
+const ProductCatalog = lazy(() => import('./components/ProductCatalog'));
+const WhyChooseUs = lazy(() => import('./components/WhyChooseUs'));
+const Gallery = lazy(() => import('./components/Gallery'));
+const CTABanner = lazy(() => import('./components/CTABanner'));
+const FAQ = lazy(() => import('./components/FAQ'));
+const Footer = lazy(() => import('./components/Footer'));
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [showTopBtn, setShowTopBtn] = useState(false);
 
   useEffect(() => {
-    const timer = setTimeout(() => setIsLoading(false), 2000);
-    return () => clearTimeout(timer);
+    // No artificial delay — loading screen hides as soon as React mounts
+    setIsLoading(false);
   }, []);
 
   useEffect(() => {
     const handleScroll = () => setShowTopBtn(window.scrollY > 500);
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -47,19 +48,23 @@ export default function App() {
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.5 }}
+            transition={{ duration: 0.3 }}
           >
             <Navbar />
             <main>
               <Hero />
-              <About />
-              <ProductCatalog />
-              <WhyChooseUs />
-              <Gallery />
-              <CTABanner />
-              <FAQ />
+              <Suspense fallback={<div className="py-24" />}>
+                <About />
+                <ProductCatalog />
+                <WhyChooseUs />
+                <Gallery />
+                <CTABanner />
+                <FAQ />
+              </Suspense>
             </main>
-            <Footer />
+            <Suspense fallback={null}>
+              <Footer />
+            </Suspense>
 
             {/* Floating WhatsApp Button */}
             <motion.button
@@ -72,7 +77,7 @@ export default function App() {
               }}
               initial={{ scale: 0, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
-              transition={{ delay: 0.5, type: 'spring', stiffness: 300, damping: 20 }}
+              transition={{ delay: 0.3, type: 'spring', stiffness: 300, damping: 20 }}
               whileHover={{ scale: 1.12 }}
               whileTap={{ scale: 0.95 }}
               aria-label="Chat WhatsApp"

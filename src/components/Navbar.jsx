@@ -41,11 +41,16 @@ export default function Navbar() {
           {/* Logo */}
           <a href="#hero" className="flex items-center gap-3 group">
             <div className="relative">
-              <img
-                src="/logo.png"
-                alt="Sterna Studio Logo"
-                className="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
-              />
+              <picture>
+                <source srcSet="/logo.webp" type="image/webp" />
+                <img
+                  src="/logo.png"
+                  alt="Sterna Studio Logo"
+                  className="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+                  width="40"
+                  height="29"
+                />
+              </picture>
             </div>
           </a>
 
