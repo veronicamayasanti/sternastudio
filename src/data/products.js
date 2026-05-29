@@ -122,18 +122,18 @@ export const products = [
 export const categories = ['Semua', 'Home Decor', 'Desk Accessories', 'Keychain', 'Miniature'];
 
 export const galleryImages = [
-  { src: '/products/20260515_081726817_ios.webp', label: 'Pallet Coaster' },
-  { src: '/products/name-keychain.jpeg', label: 'Name Keychain' },
-  { src: '/products/bow-holderrr.webp', label: 'Triple Bow Brush Holder' },
-  { src: '/products/img_0636.webp', label: 'Piggy Bank' },
-  { src: '/products/2024_03_21_22_58_img_8860.webp', label: 'Minecraft Keychain' },
-  { src: '/products/jewelry-tree.jpeg', label: 'Jewelry Tree' },
-  { src: '/products/ghost-pen-holder.jpeg', label: 'Ghost Pen Holder' },
-  { src: '/products/bestdad-v22-neon.webp', label: 'BestDAD Keychain' },
-  { src: '/products/img_6122.webp', label: 'Hex Organizer' },
-  { src: '/products/2024_10_23_12_40_img_3126.webp', label: 'Roblox Keychain' },
-  { src: '/products/glasses-stand.jpeg', label: 'Glasses Stand' },
-  { src: '/products/bow-photo-stand.jpeg', label: 'Bow Photo Stand' },
+  { src: '/products/20260515_081726817_ios.webp', label: 'Pallet Coaster', alt: '3D printed pallet coaster set for home decor by Sterna Studio' },
+  { src: '/products/name-keychain.jpeg', label: 'Name Keychain', alt: 'Custom 3D printed name keychain gantungan kunci nama by Sterna Studio' },
+  { src: '/products/bow-holderrr.webp', label: 'Triple Bow Brush Holder', alt: '3D printed triple bow makeup brush holder desk accessory by Sterna Studio' },
+  { src: '/products/img_0636.webp', label: 'Piggy Bank', alt: '3D printed lying piggy bank celengan collectible by Sterna Studio' },
+  { src: '/products/2024_03_21_22_58_img_8860.webp', label: 'Minecraft Keychain', alt: 'Custom 3D printed Minecraft Creeper keychain gantungan kunci by Sterna Studio' },
+  { src: '/products/jewelry-tree.jpeg', label: 'Jewelry Tree', alt: '3D printed jewelry tree organizer dekorasi meja rias by Sterna Studio' },
+  { src: '/products/ghost-pen-holder.jpeg', label: 'Ghost Pen Holder', alt: '3D printed ghost pen holder tempat pulpen desk setup by Sterna Studio' },
+  { src: '/products/bestdad-v22-neon.webp', label: 'BestDAD Keychain', alt: 'Custom 3D printed BestDAD keychain hadiah ayah by Sterna Studio' },
+  { src: '/products/img_6122.webp', label: 'Hex Organizer', alt: '3D printed hexagonal desk organizer box for gaming setup by Sterna Studio' },
+  { src: '/products/2024_10_23_12_40_img_3126.webp', label: 'Roblox Keychain', alt: 'Custom 3D printed Roblox keychain gantungan kunci gaming by Sterna Studio' },
+  { src: '/products/glasses-stand.jpeg', label: 'Glasses Stand', alt: '3D printed sculptural glasses stand minimalist desk accessory by Sterna Studio' },
+  { src: '/products/bow-photo-stand.jpeg', label: 'Bow Photo Stand', alt: '3D printed bow photo stand miniature instax polaroid holder by Sterna Studio' },
 ];
 
 export const faqs = [

@@ -34,11 +34,10 @@ export default function ProductCatalog() {
             <span className="text-xs font-outfit font-500 text-brand-muted tracking-widest uppercase">Katalog Produk</span>
           </div>
           <h2 className="section-title text-brand-text font-outfit mb-4">
-            Temukan Produk <span className="gradient-text">Favoritmu</span>
+            Katalog <span className="gradient-text">3D Printing Custom</span>
           </h2>
           <p className="text-brand-muted/80 font-dm max-w-xl mx-auto text-base leading-relaxed">
-            Koleksi 3D printing estetik untuk desk setup, dekorasi rumah, dan kolektibel unik.
-            Semua diproduksi dengan kualitas tinggi.
+            Koleksi produk 3D printing Indonesia — keychain custom, desk setup accessories, dekorasi rumah, miniatur, dan collectibles estetik berkualitas premium.
           </p>
         </motion.div>
 

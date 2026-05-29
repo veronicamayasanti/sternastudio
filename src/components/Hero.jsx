@@ -118,30 +118,35 @@ export default function Hero() {
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-brand-primary/30 to-brand-secondary/20 blur-3xl scale-150" />
             <img
               src="/logo.png"
-              alt="Sterna Studio"
+              alt="Sterna Studio – Jasa 3D Printing Custom Indonesia"
               className="relative h-44 md:h-56 w-auto object-contain drop-shadow-[0_0_30px_rgba(192,132,252,0.4)] animate-float"
+              width="224"
+              height="224"
+              fetchpriority="high"
             />
           </div>
         </motion.div>
 
-        {/* Headline */}
-        <motion.h1
-          className="section-title gradient-text mb-4 font-outfit font-800"
+        {/* Brand name – visual only, logo already establishes brand */}
+        <motion.p
+          className="section-title gradient-text mb-2 font-outfit font-800"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.5 }}
+          aria-hidden="true"
         >
           Sterna Studio
-        </motion.h1>
+        </motion.p>
 
-        <motion.p
-          className="text-xl md:text-2xl text-brand-muted font-outfit font-300 tracking-widest mb-4 uppercase"
+        {/* SEO H1 – keyword-rich, styled as subtitle */}
+        <motion.h1
+          className="text-lg md:text-xl text-brand-muted font-outfit font-400 tracking-wide mb-4"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.65 }}
         >
-          3D Printed Decor & Collectibles
-        </motion.p>
+          Jasa 3D Printing Custom untuk Decor &amp; Collectibles di Indonesia
+        </motion.h1>
 
         <motion.p
           className="text-base md:text-lg text-brand-muted/70 font-dm max-w-xl mx-auto mb-12 leading-relaxed"
@@ -149,8 +154,8 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.8 }}
         >
-          Produk dekorasi, aksesoris, dan kolektibel berkualitas premium.
-          Dicetak presisi, dirancang estetik — hanya dari Sterna Studio.
+          Sterna Studio menghadirkan custom 3D printed decor, desk setup accessories, miniatur,
+          collectible, dan personalized products berkualitas premium — dicetak presisi dari Bogor.
         </motion.p>
 
         {/* CTA Buttons */}

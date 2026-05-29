@@ -45,8 +45,11 @@ export default function Footer() {
             <a href="#hero" className="flex items-center gap-3 mb-5 group w-fit">
               <img
                 src="/logo.png"
-                alt="Sterna Studio"
+                alt="Sterna Studio – Jasa 3D Printing Custom Indonesia"
                 className="h-14 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
+                width="56"
+                height="56"
+                loading="lazy"
               />
             </a>
             <p className="text-sm font-dm text-brand-muted/80 leading-relaxed mb-6 max-w-xs">
