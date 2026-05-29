@@ -5,3 +5,5 @@ dist
 terbarulogo.png
 /improvement.md
 .idea/
+/deploy.sh
+/nginx.conf
