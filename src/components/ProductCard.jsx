@@ -62,7 +62,7 @@ export default function ProductCard({ product, index = 0 }) {
       </div>
 
       {/* Content */}
-      <div className="flex flex-col flex-1 p-5">
+      <div className="flex flex-col flex-1 p-4 sm:p-5">
         {/* Category */}
         <div className="flex items-center gap-1.5 mb-2">
           <Tag size={10} className="text-brand-muted" />
@@ -82,8 +82,8 @@ export default function ProductCard({ product, index = 0 }) {
         </p>
 
         {/* Price + CTA */}
-        <div className="flex items-center justify-between gap-3 mt-auto">
-          <div className="price-tag">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mt-auto">
+          <div className="price-tag w-fit">
             <span className="text-sm font-outfit font-700 gradient-text">
               {formatPrice(product.price)}
             </span>
@@ -91,7 +91,7 @@ export default function ProductCard({ product, index = 0 }) {
           <motion.button
             id={`order-btn-${product.id}`}
             onClick={handleOrder}
-            className="btn-whatsapp text-xs py-2 px-4"
+            className="btn-whatsapp text-xs py-2 px-4 justify-center w-full sm:w-auto"
             whileTap={{ scale: 0.96 }}
           >
             <MessageCircle size={13} />
