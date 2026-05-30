@@ -44,9 +44,9 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <a href="#hero" className="flex items-center gap-3 mb-5 group w-fit">
               <picture>
-                <source srcSet="/logo.webp" type="image/webp" />
+                <source srcSet="/logo-sterna.webp" type="image/webp" />
                 <img
-                  src="/logo.png"
+                  src="/logo-sterna.png"
                   alt="Sterna Studio – Jasa 3D Printing Custom Indonesia"
                   className="h-14 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
                   width="56"

@@ -37,9 +37,9 @@ export default function LoadingScreen({ isLoading }) {
             >
               <div className="absolute inset-0 rounded-full bg-brand-primary/20 blur-3xl scale-150 animate-pulse-glow" />
               <picture>
-                <source srcSet="/logo.webp" type="image/webp" />
+                <source srcSet="/logo-sterna.webp" type="image/webp" />
                 <img
-                  src="/logo.png"
+                  src="/logo-sterna.png"
                   alt="Sterna Studio"
                   className="h-32 w-auto object-contain relative z-10 animate-float"
                   width="128"
