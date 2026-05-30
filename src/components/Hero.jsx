@@ -1,10 +1,13 @@
+import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { ChevronDown, MessageCircle, Layers } from 'lucide-react';
 
+// Floating particle component
 function Particle({ style }) {
   return <div className="particle" style={style} />;
 }
 
+// Animated 3D geometric shapes
 function FloatingShape({ className, delay = 0 }) {
   return (
     <motion.div
@@ -15,19 +18,18 @@ function FloatingShape({ className, delay = 0 }) {
   );
 }
 
-// Fixed seed values to avoid Math.random() re-runs on every render
-const PARTICLE_DATA = [
-  { id: 0, size: 4, left: 10, delay: 1, duration: 18, opacity: 0.5 },
-  { id: 1, size: 3, left: 22, delay: 4, duration: 15, opacity: 0.35 },
-  { id: 2, size: 5, left: 35, delay: 0, duration: 20, opacity: 0.45 },
-  { id: 3, size: 2, left: 50, delay: 6, duration: 14, opacity: 0.3 },
-  { id: 4, size: 4, left: 63, delay: 2, duration: 17, opacity: 0.5 },
-  { id: 5, size: 3, left: 76, delay: 5, duration: 16, opacity: 0.4 },
-  { id: 6, size: 5, left: 88, delay: 3, duration: 19, opacity: 0.35 },
-  { id: 7, size: 2, left: 44, delay: 7, duration: 13, opacity: 0.45 },
-];
-
 export default function Hero() {
+  const particlesRef = useRef([]);
+
+  // Generate particles
+  const particles = Array.from({ length: 18 }, (_, i) => ({
+    id: i,
+    size: Math.random() * 4 + 2,
+    left: Math.random() * 100,
+    delay: Math.random() * 8,
+    duration: Math.random() * 10 + 12,
+    opacity: Math.random() * 0.5 + 0.2,
+  }));
 
   const handleCatalog = () => {
     document.getElementById('catalog')?.scrollIntoView({ behavior: 'smooth' });
@@ -45,7 +47,7 @@ export default function Hero() {
       <div className="glow-orb w-[300px] h-[300px] top-1/3 -right-20 bg-indigo-500/15" />
 
       {/* Particles */}
-      {PARTICLE_DATA.map((p) => (
+      {particles.map((p) => (
         <Particle
           key={p.id}
           style={{
@@ -114,41 +116,32 @@ export default function Hero() {
         >
           <div className="relative">
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-brand-primary/30 to-brand-secondary/20 blur-3xl scale-150" />
-            <picture>
-                <source srcSet="/logo.webp" type="image/webp" />
-                <img
-                  src="/logo.png"
-                  alt="Sterna Studio – Jasa 3D Printing Custom Indonesia"
-                  className="relative h-44 md:h-56 w-auto object-contain drop-shadow-[0_0_30px_rgba(192,132,252,0.4)] animate-float"
-                  width="224"
-                  height="224"
-                  fetchpriority="high"
-                  decoding="sync"
-                />
-              </picture>
+            <img
+              src="/logo-sterna.webp"
+              alt="Sterna Studio"
+              className="relative h-44 md:h-56 w-auto object-contain drop-shadow-[0_0_30px_rgba(192,132,252,0.4)] animate-float"
+            />
           </div>
         </motion.div>
 
-        {/* Brand name – visual only, logo already establishes brand */}
-        <motion.p
-          className="section-title gradient-text mb-2 font-outfit font-800"
+        {/* Headline */}
+        <motion.h1
+          className="section-title gradient-text mb-4 font-outfit font-800"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.5 }}
-          aria-hidden="true"
         >
           Sterna Studio
-        </motion.p>
+        </motion.h1>
 
-        {/* SEO H1 – keyword-rich, styled as subtitle */}
-        <motion.h1
-          className="text-lg md:text-xl text-brand-muted font-outfit font-400 tracking-wide mb-4"
+        <motion.p
+          className="text-xl md:text-2xl text-brand-muted font-outfit font-300 tracking-widest mb-4 uppercase"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.65 }}
         >
-          Jasa 3D Printing Custom untuk Decor &amp; Collectibles di Indonesia
-        </motion.h1>
+          3D Printed Decor & Collectibles
+        </motion.p>
 
         <motion.p
           className="text-base md:text-lg text-brand-muted/70 font-dm max-w-xl mx-auto mb-12 leading-relaxed"
@@ -156,8 +149,8 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.8 }}
         >
-          Sterna Studio menghadirkan custom 3D printed decor, desk setup accessories, miniatur,
-          collectible, dan personalized products berkualitas premium — dicetak presisi dari Bogor.
+          Produk dekorasi, aksesoris, dan kolektibel berkualitas premium.
+          Dicetak presisi, dirancang estetik — hanya dari Sterna Studio.
         </motion.p>
 
         {/* CTA Buttons */}
