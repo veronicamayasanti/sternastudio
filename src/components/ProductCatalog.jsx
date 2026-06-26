@@ -1,12 +1,15 @@
 import { useState, useRef } from 'react';
-import { motion, useInView } from 'framer-motion';
-import { Search } from 'lucide-react';
+import { motion, useInView, AnimatePresence } from 'framer-motion';
+import { Search, ChevronDown } from 'lucide-react';
 import { products, categories } from '../data/products';
 import ProductCard from './ProductCard';
+
+const PAGE_SIZE = 8;
 
 export default function ProductCatalog() {
   const [activeCategory, setActiveCategory] = useState('Semua');
   const [search, setSearch] = useState('');
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-60px' });
 
@@ -15,6 +18,21 @@ export default function ProductCatalog() {
     const matchSearch = p.name.toLowerCase().includes(search.toLowerCase());
     return matchCat && matchSearch;
   });
+
+  const visible = filtered.slice(0, visibleCount);
+  const hasMore = visibleCount < filtered.length;
+
+  const handleCategoryChange = (cat) => {
+    setActiveCategory(cat);
+    setVisibleCount(PAGE_SIZE);
+  };
+
+  const handleSearchChange = (e) => {
+    setSearch(e.target.value);
+    setVisibleCount(PAGE_SIZE);
+  };
+
+  const loadMore = () => setVisibleCount((n) => n + PAGE_SIZE);
 
   return (
     <section id="catalog" className="relative py-24 md:py-32 overflow-hidden">
@@ -54,7 +72,7 @@ export default function ProductCatalog() {
               <button
                 key={cat}
                 id={`cat-${cat.replace(/\s+/g, '-').toLowerCase()}`}
-                onClick={() => setActiveCategory(cat)}
+                onClick={() => handleCategoryChange(cat)}
                 className={`category-pill ${activeCategory === cat ? 'active' : 'inactive'}`}
               >
                 {cat}
@@ -70,7 +88,7 @@ export default function ProductCatalog() {
               id="catalog-search"
               placeholder="Cari produk..."
               value={search}
-              onChange={(e) => setSearch(e.target.value)}
+              onChange={handleSearchChange}
               className="pl-10 pr-5 py-2.5 text-sm font-dm rounded-full glass-card-light border border-brand-border focus:border-brand-primary/50 focus:outline-none focus:ring-1 focus:ring-brand-primary/30 bg-transparent text-brand-text placeholder-brand-muted/40 w-48 transition-all duration-300 focus:w-56"
             />
           </div>
@@ -78,11 +96,35 @@ export default function ProductCatalog() {
 
         {/* Product grid */}
         {filtered.length > 0 ? (
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
-            {filtered.map((product, i) => (
-              <ProductCard key={product.id} product={product} index={i} />
-            ))}
-          </div>
+          <>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
+              <AnimatePresence initial={false}>
+                {visible.map((product, i) => (
+                  <ProductCard key={product.id} product={product} index={i} />
+                ))}
+              </AnimatePresence>
+            </div>
+
+            {/* Load more / counter */}
+            <div className="mt-10 flex flex-col items-center gap-3">
+              <p className="text-xs font-dm text-brand-muted/50">
+                Menampilkan {visible.length} dari {filtered.length} produk
+              </p>
+              {hasMore && (
+                <motion.button
+                  onClick={loadMore}
+                  className="flex items-center gap-2 px-6 py-3 rounded-full glass-card-light border border-brand-primary/30 text-sm font-outfit font-500 text-brand-primary hover:bg-brand-primary/10 transition-colors duration-200"
+                  whileTap={{ scale: 0.97 }}
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.3 }}
+                >
+                  <ChevronDown size={15} />
+                  Lihat {Math.min(PAGE_SIZE, filtered.length - visibleCount)} produk lagi
+                </motion.button>
+              )}
+            </div>
+          </>
         ) : (
           <motion.div
             className="text-center py-20"
