@@ -1,73 +1,139 @@
 // AUTO-GENERATED — do not edit manually.
-// Last synced: 2026-06-26T08:43:25.879Z
+// Last synced: 2026-06-26T21:01:10.216Z
 // Source: https://cart.sternastudio.com
 
 export const products = [
   {
-    "id": 54,
-    "name": "Hiasan Meja Kucing Membaca Buku",
+    "id": 72,
+    "name": "Tempat Pensil Bentuk Hoodie – Organizer Meja Unik Bahan PLA Print 3D",
     "category": "Desk Accessories",
-    "price": 94000,
-    "originalPrice": null,
-    "description": "Tambahkan sentuhan unik dan artistik pada meja kerja, rak buku, atau sudut dekorasi Anda dengan Patung Kucing Membaca Buku dari Sterna Studio. Produk…",
-    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SS07/1-600x600.jpeg",
+    "price": 32387,
+    "originalPrice": 37382,
+    "description": "Buat meja kerja atau meja belajar lebih menarik dengan Tempat Pensil Bentuk Hoodie. Desain unik menyerupai hoodie memberikan tampilan kreatif dan…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD18/image_8d9e39ef-600x600.png",
     "badge": null,
-    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=54"
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=72"
   },
   {
-    "id": 50,
-    "name": "Holder Disc PS5",
+    "id": 71,
+    "name": "Tempat Pensil Bentuk Ban Mobil – Desk Organizer Unik Estetik",
+    "category": "Desk Accessories",
+    "price": 56430,
+    "originalPrice": 62273,
+    "description": "Tambahkan sentuhan otomotif pada meja kerja atau setup Anda dengan Pen Holder Tires. Tempat pensil unik berbentuk tumpukan ban ini dirancang untuk…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD08/vvv-600x600.jpeg",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=71"
+  },
+  {
+    "id": 70,
+    "name": "Stand Apple Magic Keyboard, AirPods & Mouse – Organizer Meja Minimalis Bahan PLA Print 3D",
+    "category": "Desk Accessories",
+    "price": 39353,
+    "originalPrice": null,
+    "description": "Rapikan workspace Anda dengan Stand Apple Magic Keyboard, AirPods & Mouse — solusi penyimpanan minimalis untuk menjaga aksesori favorit tetap tersusun…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD21/rwrtw-600x600.jpeg",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=70"
+  },
+  {
+    "id": 69,
+    "name": "Sleek Laptop Riser – Stand Laptop Ergonomis Minimalis Bahan PLA Print 3D",
+    "category": "Desk Accessories",
+    "price": 54658,
+    "originalPrice": null,
+    "description": "Buat meja kerja lebih nyaman dan modern dengan Sleek Laptop Riser. Dudukan laptop minimalis ini dirancang untuk memberikan sudut elevasi yang lebih…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD23/7-600x600.jpeg",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=69"
+  },
+  {
+    "id": 68,
+    "name": "Honeycomb Keyboard Stand – Dudukan Keyboard Ergonomis Bahan PLA Print 3D",
+    "category": "Desk Accessories",
+    "price": 40385,
+    "originalPrice": null,
+    "description": "Tingkatkan kenyamanan dan tampilan setup kerja atau gaming dengan Honeycomb Keyboard Stand. Mengusung desain honeycomb (sarang lebah) yang modern dan…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD31/6-600x600.jpeg",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=68"
+  },
+  {
+    "id": 67,
+    "name": "Keyboard Stand Simple – Dudukan Keyboard Ergonomis Bahan PLA Print 3D",
+    "category": "Desk Accessories",
+    "price": 36249,
+    "originalPrice": null,
+    "description": "Tingkatkan kenyamanan saat mengetik dengan Keyboard Stand Simple. Dudukan keyboard minimalis ini dirancang untuk memberikan sudut kemiringan yang…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD32/fwsfs-600x600.jpeg",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=67"
+  },
+  {
+    "id": 66,
+    "name": "Stand Controller Xbox Hexagonal – Dudukan Stick Xbox Bahan PLA Print 3D",
     "category": "Gaming Accessories",
-    "price": 55000,
-    "originalPrice": 85000,
-    "description": "Holder Disc Game PS5 adalah solusi praktis untuk menyimpan koleksi disc game PlayStation 5 agar tetap rapi, aman, dan mudah diakses. Dirancang dengan…",
-    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SS12/WhatsApp%20Image%202026-06-08%20at%207.10.08%20PMw-600x600.jpeg",
+    "price": 49540,
+    "originalPrice": null,
+    "description": "Tampilkan controller Xbox dengan lebih unik menggunakan Stand Controller Xbox Hexagonal. Desain geometris dengan pola hexagonal / sarang lebah…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SS11/WhatsApp%20Image%202026-06-08%20at%202.07.19%20PM-600x600.jpeg",
     "badge": null,
-    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=50"
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=66"
   },
   {
-    "id": 58,
-    "name": "Holder Stick PS4 Bentuk Bantal",
+    "id": 65,
+    "name": "Rak Game PS4 – Stand Penyimpanan Kaset / Disc PS4 Bahan PLA Print 3D",
     "category": "Gaming Accessories",
-    "price": 59800,
+    "price": 64450,
     "originalPrice": null,
-    "description": "Simpan dan pajang controller PS4 dengan lebih rapi menggunakan Holder Stick PS4 Bentuk Bantal. Desain unik menyerupai bantal membuat tampilan meja…",
-    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SS15/WhatsApp%20Image%202026-06-10%20at%205.03.13%20PMdad-600x600.jpeg",
+    "description": "Rapikan koleksi game favorit Anda dengan Rak Game PS4 yang dirancang untuk menyimpan kaset atau box game PlayStation 4 secara lebih teratur dan mudah…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD22/6-600x600.jpeg",
     "badge": null,
-    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=58"
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=65"
   },
   {
-    "id": 55,
-    "name": "Keranjang Dekoratif Serbaguna",
-    "category": "Desk Accessories",
-    "price": 127500,
+    "id": 64,
+    "name": "Holder Stick PS3 – Dudukan Controller PS3 Minimalis Bahan PLA Print 3D",
+    "category": "Gaming Accessories",
+    "price": 29500,
+    "originalPrice": 30500,
+    "description": "Simpan dan tampilkan controller favorit Anda dengan Holder Stick PS3 yang dirancang khusus untuk controller PlayStation 3. Desain minimalis dengan…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SS19/id-11134207-822wh-mp0p4qdn52ps5d-600x600.webp",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=64"
+  },
+  {
+    "id": 63,
+    "name": "Holder Stick Xbox Series – Dudukan Controller Xbox Anti Slip Bahan PLA Print 3D",
+    "category": "Gaming Accessories",
+    "price": 38000,
     "originalPrice": null,
-    "description": "Tambahkan sentuhan manis dan elegan pada meja, rak, atau sudut dekorasi Anda dengan Keranjang Serbaguna Pita dari Sterna Studio. Produk ini merupakan…",
-    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SS02/WhatsApp%20Image%202026-06-06%20at%2011.22.43%20PM-600x600.jpeg",
+    "description": "Jaga controller tetap rapi dan terlindungi dengan Holder Stick Xbox Series. Dirancang khusus untuk menopang controller Xbox dengan posisi stabil,…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SS18/id-11134207-822wl-mp11vtapy58h86-600x600.webp",
     "badge": null,
-    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=55"
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=63"
   },
   {
-    "id": 51,
-    "name": "Mac Mini M4 Stand Holder – Dudukan Vertikal Praktis & Ergonomis",
-    "category": "Desk Accessories",
-    "price": 39000,
-    "originalPrice": 85000,
-    "description": "Tombol power yang berada di bagian bawah Mac Mini M4 sering kali menyulitkan saat ingin menyalakan atau mematikan perangkat. Dengan Mac Mini M4 Stand…",
-    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SS14/WhatsApp%20Image%202026-06-05%20at%202.11.30%20PM-600x600.jpeg",
+    "id": 61,
+    "name": "Stand Holder Stick PS5 – Dudukan Dual Controller PS5",
+    "category": "Gaming Accessories",
+    "price": 73500,
+    "originalPrice": 82500,
+    "description": "Rapikan setup gaming Anda dengan Stand Holder Stick PS5 – Dudukan Dual Controller yang dirancang untuk menyimpan 2 controller PS5 sekaligus dalam satu…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SS16/WhatsApp%20Image%202026-06-08%20at%208.09.55%20PMfdf-600x600.jpeg",
     "badge": null,
-    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=51"
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=61"
   },
   {
-    "id": 57,
-    "name": "Penyangga Buku Ikonik The Beatles",
-    "category": "Desk Accessories",
-    "price": 45987,
-    "originalPrice": 48769,
-    "description": "Tambahkan sentuhan musik klasik dan estetika unik ke rak buku Anda dengan Penyangga Buku Ikonik The Beatles. Terinspirasi dari siluet legendaris yang…",
-    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD38/ChatGPT%20Image%2024%20Jun%202026,%2021.38.26-600x600.png",
+    "id": 60,
+    "name": "Stand Controller Nintendo Switch 2 & Switch Bentuk Warp Pipe",
+    "category": "Gaming Accessories",
+    "price": 54500,
+    "originalPrice": 58500,
+    "description": "Buat setup gaming lebih seru dengan Stand Controller Nintendo Switch 2 & Switch Bentuk Warp Pipe. Terinspirasi dari desain pipa ikonik game klasik,…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD27/4-600x600.jpeg",
     "badge": null,
-    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=57"
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=60"
   },
   {
     "id": 59,
@@ -81,6 +147,28 @@ export const products = [
     "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=59"
   },
   {
+    "id": 58,
+    "name": "Holder Stick PS4 Bentuk Bantal",
+    "category": "Gaming Accessories",
+    "price": 59800,
+    "originalPrice": null,
+    "description": "Simpan dan pajang controller PS4 dengan lebih rapi menggunakan Holder Stick PS4 Bentuk Bantal. Desain unik menyerupai bantal membuat tampilan meja…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SS15/WhatsApp%20Image%202026-06-10%20at%205.03.13%20PMdad-600x600.jpeg",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=58"
+  },
+  {
+    "id": 57,
+    "name": "Penyangga Buku Ikonik The Beatles",
+    "category": "Desk Accessories",
+    "price": 45987,
+    "originalPrice": 48769,
+    "description": "Tambahkan sentuhan musik klasik dan estetika unik ke rak buku Anda dengan Penyangga Buku Ikonik The Beatles. Terinspirasi dari siluet legendaris yang…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD38/ChatGPT%20Image%2024%20Jun%202026,%2021.38.26-600x600.png",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=57"
+  },
+  {
     "id": 56,
     "name": "Stand Controller Xbox Elite",
     "category": "Gaming Accessories",
@@ -90,6 +178,28 @@ export const products = [
     "image": "https://cart.sternastudio.com/image/cache/catalog/product/SS10/WhatsApp%20Image%202026-06-08%20at%203.26.34%20AMgdgd-600x600.jpeg",
     "badge": null,
     "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=56"
+  },
+  {
+    "id": 55,
+    "name": "Keranjang Dekoratif Serbaguna",
+    "category": "Desk Accessories",
+    "price": 127500,
+    "originalPrice": null,
+    "description": "Tambahkan sentuhan manis dan elegan pada meja, rak, atau sudut dekorasi Anda dengan Keranjang Serbaguna Pita dari Sterna Studio. Produk ini merupakan…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SS02/WhatsApp%20Image%202026-06-06%20at%2011.22.43%20PM-600x600.jpeg",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=55"
+  },
+  {
+    "id": 54,
+    "name": "Hiasan Meja Kucing Membaca Buku",
+    "category": "Desk Accessories",
+    "price": 94000,
+    "originalPrice": null,
+    "description": "Tambahkan sentuhan unik dan artistik pada meja kerja, rak buku, atau sudut dekorasi Anda dengan Patung Kucing Membaca Buku dari Sterna Studio. Produk…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SS07/1-600x600.jpeg",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=54"
   },
   {
     "id": 53,
@@ -112,6 +222,28 @@ export const products = [
     "image": "https://cart.sternastudio.com/image/cache/catalog/product/SS01/WhatsApp%20Image%202026-06-06%20at%206.19.21%20PM-600x600.jpeg",
     "badge": null,
     "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=52"
+  },
+  {
+    "id": 51,
+    "name": "Mac Mini M4 Stand Holder – Dudukan Vertikal Praktis & Ergonomis",
+    "category": "Desk Accessories",
+    "price": 39000,
+    "originalPrice": 85000,
+    "description": "Tombol power yang berada di bagian bawah Mac Mini M4 sering kali menyulitkan saat ingin menyalakan atau mematikan perangkat. Dengan Mac Mini M4 Stand…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SS14/WhatsApp%20Image%202026-06-05%20at%202.49.52%20PM-600x600.jpeg",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=51"
+  },
+  {
+    "id": 50,
+    "name": "Holder Disc PS5",
+    "category": "Gaming Accessories",
+    "price": 55000,
+    "originalPrice": 85000,
+    "description": "Holder Disc Game PS5 adalah solusi praktis untuk menyimpan koleksi disc game PlayStation 5 agar tetap rapi, aman, dan mudah diakses. Dirancang dengan…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SS12/WhatsApp%20Image%202026-06-08%20at%207.10.08%20PMw-600x600.jpeg",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=50"
   }
 ];
 
