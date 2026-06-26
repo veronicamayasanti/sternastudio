@@ -10,7 +10,22 @@ import path from 'path';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUTPUT_PATH = path.join(__dirname, '../src/data/products.js');
-const FEED_TOKEN = process.env.STERNACART_FEED_TOKEN ?? '093de65825cde2efd43ca7855db2efc2cd6e2645b62d6e09f3fa8e93a29c645c';
+
+// Load .env manually (no external dependency)
+try {
+  const env = readFileSync(path.join(__dirname, '../.env'), 'utf8');
+  for (const line of env.split('\n')) {
+    const [key, ...rest] = line.split('=');
+    if (key && rest.length) process.env[key.trim()] = rest.join('=').trim();
+  }
+} catch {}
+
+const FEED_TOKEN = process.env.STERNACART_FEED_TOKEN;
+if (!FEED_TOKEN) {
+  console.error('ERROR: STERNACART_FEED_TOKEN is not set. Add it to .env or set as environment variable.');
+  process.exit(1);
+}
+
 const API_URL = `https://cart.sternastudio.com/index.php?route=sternastudio/products&token=${FEED_TOKEN}`;
 
 // Preserve all static exports (everything except `products` and `categories`)

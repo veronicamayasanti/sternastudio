@@ -1,5 +1,5 @@
 // AUTO-GENERATED — do not edit manually.
-// Last synced: 2026-06-26T21:05:23.087Z
+// Last synced: 2026-06-26T21:07:03.135Z
 // Source: https://cart.sternastudio.com
 
 export const products = [
