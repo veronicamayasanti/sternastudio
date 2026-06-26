@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { MessageCircle, Tag } from 'lucide-react';
+import { MessageCircle, ShoppingCart, Tag } from 'lucide-react';
 
 const WHATSAPP_NUMBER = '6285770651904';
 
@@ -84,21 +84,42 @@ export default function ProductCard({ product, index = 0 }) {
         </p>
 
         {/* Price + CTA */}
-        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mt-auto">
+        <div className="flex flex-col gap-2 mt-auto">
+          {/* Price */}
           <div className="price-tag w-fit">
+            {product.originalPrice && (
+              <span className="text-xs font-outfit text-brand-muted/50 line-through mr-1.5">
+                {formatPrice(product.originalPrice)}
+              </span>
+            )}
             <span className="text-sm font-outfit font-700 gradient-text">
               {formatPrice(product.price)}
             </span>
           </div>
-          <motion.button
-            id={`order-btn-${product.id}`}
-            onClick={handleOrder}
-            className="btn-whatsapp text-xs py-2 px-4 justify-center w-full sm:w-auto"
-            whileTap={{ scale: 0.96 }}
-          >
-            <MessageCircle size={13} />
-            Pesan
-          </motion.button>
+          {/* Buttons */}
+          <div className="flex gap-2">
+            {product.cartUrl && (
+              <motion.a
+                href={product.cartUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-1 flex items-center justify-center gap-1.5 text-xs py-2 px-3 rounded-full border border-brand-primary/40 text-brand-primary font-outfit font-500 hover:bg-brand-primary/10 transition-colors duration-200"
+                whileTap={{ scale: 0.96 }}
+              >
+                <ShoppingCart size={12} />
+                Beli
+              </motion.a>
+            )}
+            <motion.button
+              id={`order-btn-${product.id}`}
+              onClick={handleOrder}
+              className={`btn-whatsapp text-xs py-2 px-4 justify-center ${product.cartUrl ? '' : 'w-full'}`}
+              whileTap={{ scale: 0.96 }}
+            >
+              <MessageCircle size={13} />
+              Pesan
+            </motion.button>
+          </div>
         </div>
       </div>
     </motion.div>

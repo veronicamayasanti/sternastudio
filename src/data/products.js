@@ -1,125 +1,125 @@
-// Product catalog data for Sterna Studio
-// Images reference files in /public/products/
+// AUTO-GENERATED — do not edit manually.
+// Last synced: 2026-06-26T08:43:25.879Z
+// Source: https://cart.sternastudio.com
 
 export const products = [
-  // === KEYCHAIN ===
   {
-    id: 1,
-    name: 'Keychain Minecraft Creeper',
-    category: 'Keychain',
-    price: 25000,
-    description: 'Gantungan kunci 3D printing Minecraft Creeper detail tinggi. Dua warna kontras hitam & hijau yang ikonik.',
-    image: '/products/2024_03_21_22_58_img_8860.webp',
-    badge: 'Best Seller',
+    "id": 54,
+    "name": "Hiasan Meja Kucing Membaca Buku",
+    "category": "Desk Accessories",
+    "price": 94000,
+    "originalPrice": null,
+    "description": "Tambahkan sentuhan unik dan artistik pada meja kerja, rak buku, atau sudut dekorasi Anda dengan Patung Kucing Membaca Buku dari Sterna Studio. Produk…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SS07/1-600x600.jpeg",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=54"
   },
   {
-    id: 2,
-    name: 'Keychain Roblox',
-    category: 'Keychain',
-    price: 25000,
-    description: 'Gantungan kunci logo Roblox 3D printing dua warna oranye dan hitam. Detail presisi, kualitas premium.',
-    image: '/products/2024_10_23_12_40_img_3126.webp',
-    badge: null,
+    "id": 50,
+    "name": "Holder Disc PS5",
+    "category": "Gaming Accessories",
+    "price": 55000,
+    "originalPrice": 85000,
+    "description": "Holder Disc Game PS5 adalah solusi praktis untuk menyimpan koleksi disc game PlayStation 5 agar tetap rapi, aman, dan mudah diakses. Dirancang dengan…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SS12/WhatsApp%20Image%202026-06-08%20at%207.10.08%20PMw-600x600.jpeg",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=50"
   },
   {
-    id: 3,
-    name: 'Name Keychain',
-    category: 'Keychain',
-    price: 30000,
-    description: 'Gantungan kunci nama 3D printing. Tersedia berbagai warna cerah. Hadiah unik dan personal.',
-    image: '/products/name-keychain.jpeg',
-    badge: 'Populer',
+    "id": 58,
+    "name": "Holder Stick PS4 Bentuk Bantal",
+    "category": "Gaming Accessories",
+    "price": 59800,
+    "originalPrice": null,
+    "description": "Simpan dan pajang controller PS4 dengan lebih rapi menggunakan Holder Stick PS4 Bentuk Bantal. Desain unik menyerupai bantal membuat tampilan meja…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SS15/WhatsApp%20Image%202026-06-10%20at%205.03.13%20PMdad-600x600.jpeg",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=58"
   },
   {
-    id: 4,
-    name: 'BestDAD Keychain',
-    category: 'Keychain',
-    price: 28000,
-    description: 'Gantungan kunci bubble 3D "BestDAD" – hadiah spesial untuk ayah. Tersedia dalam berbagai warna.',
-    image: '/products/bestdad-v22-neon.webp',
-    badge: null,
-  },
-
-  // === DESK ACCESSORIES ===
-  {
-    id: 5,
-    name: 'Ghost Pen Holder',
-    category: 'Desk Accessories',
-    price: 45000,
-    description: 'Tempat pulpen berbentuk hantu lucu 3D printing. Dekorasi meja yang unik dan estetik untuk desk setup.',
-    image: '/products/ghost-pen-holder.jpeg',
-    badge: 'Cute',
+    "id": 55,
+    "name": "Keranjang Dekoratif Serbaguna",
+    "category": "Desk Accessories",
+    "price": 127500,
+    "originalPrice": null,
+    "description": "Tambahkan sentuhan manis dan elegan pada meja, rak, atau sudut dekorasi Anda dengan Keranjang Serbaguna Pita dari Sterna Studio. Produk ini merupakan…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SS02/WhatsApp%20Image%202026-06-06%20at%2011.22.43%20PM-600x600.jpeg",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=55"
   },
   {
-    id: 6,
-    name: 'Glasses Stand Sculptural',
-    category: 'Desk Accessories',
-    price: 55000,
-    description: 'Stand kacamata berbentuk sculptural organik. Desain minimalis premium, tersedia warna hitam & putih.',
-    image: '/products/glasses-stand.jpeg',
-    badge: null,
+    "id": 51,
+    "name": "Mac Mini M4 Stand Holder – Dudukan Vertikal Praktis & Ergonomis",
+    "category": "Desk Accessories",
+    "price": 39000,
+    "originalPrice": 85000,
+    "description": "Tombol power yang berada di bagian bawah Mac Mini M4 sering kali menyulitkan saat ingin menyalakan atau mematikan perangkat. Dengan Mac Mini M4 Stand…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SS14/WhatsApp%20Image%202026-06-05%20at%202.11.30%20PM-600x600.jpeg",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=51"
   },
   {
-    id: 7,
-    name: 'Hex Organizer Box',
-    category: 'Desk Accessories',
-    price: 60000,
-    description: 'Kotak organizer hexagonal 3D printing. Desain industrial modern, sempurna untuk meja kerja atau gaming setup.',
-    image: '/products/img_6122.webp',
-    badge: 'New',
+    "id": 57,
+    "name": "Penyangga Buku Ikonik The Beatles",
+    "category": "Desk Accessories",
+    "price": 45987,
+    "originalPrice": 48769,
+    "description": "Tambahkan sentuhan musik klasik dan estetika unik ke rak buku Anda dengan Penyangga Buku Ikonik The Beatles. Terinspirasi dari siluet legendaris yang…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD38/ChatGPT%20Image%2024%20Jun%202026,%2021.38.26-600x600.png",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=57"
   },
   {
-    id: 8,
-    name: 'Triple Bow Brush Holder',
-    category: 'Desk Accessories',
-    price: 75000,
-    description: 'Tempat kuas makeup 3 slot desain bow cantik. Warna krem elegan, cocok untuk meja rias estetik.',
-    image: '/products/bow-holderrr.webp',
-    badge: null,
-  },
-
-  // === HOME DECOR ===
-  {
-    id: 9,
-    name: 'Pallet Coaster Set',
-    category: 'Home Decor',
-    price: 35000,
-    description: 'Set tatakan gelas 3D printing berbentuk palet kayu mini. Lucu, fungsional, dan estetik untuk meja ruang tamu.',
-    image: '/products/20260515_081726817_ios.webp',
-    badge: 'Best Seller',
+    "id": 59,
+    "name": "Stand Controller PS5 Simple – Holder Stick PS5 Minimalis",
+    "category": "Gaming Accessories",
+    "price": 39000,
+    "originalPrice": 49500,
+    "description": "Rapikan dan tampilkan controller PS5 Anda dengan Stand Controller PS5 Simple. Desain minimalis dan modern membuat meja gaming terlihat lebih bersih,…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SS03/WhatsApp%20Image%202026-06-10%20at%203.10.03%20PMgrhd-600x600.jpeg",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=59"
   },
   {
-    id: 10,
-    name: 'Jewelry Tree Organizer',
-    category: 'Home Decor',
-    price: 85000,
-    description: 'Pohon gantungan perhiasan 3D printing elegan. Tersedia warna hitam dan putih, tampil estetik di meja rias.',
-    image: '/products/jewelry-tree.jpeg',
-    badge: 'Elegan',
-  },
-
-  // === MINIATURE ===
-  {
-    id: 11,
-    name: 'Piggy Bank Lying',
-    category: 'Miniature',
-    price: 65000,
-    description: 'Celengan babi gemoy 3D printing pose rebahan lucu. Warna pink pastel yang menggemaskan. Ada slot koin di atas.',
-    image: '/products/img_0636.webp',
-    badge: 'Lucu',
+    "id": 56,
+    "name": "Stand Controller Xbox Elite",
+    "category": "Gaming Accessories",
+    "price": 77800,
+    "originalPrice": null,
+    "description": "Rapikan dan tampilkan controller gaming Anda dengan lebih elegan menggunakan Xbox Elite Controller Stand dari Sterna Studio. Produk ini dirancang…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SS10/WhatsApp%20Image%202026-06-08%20at%203.26.34%20AMgdgd-600x600.jpeg",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=56"
   },
   {
-    id: 12,
-    name: 'Bow Photo Stand',
-    category: 'Miniature',
-    price: 30000,
-    description: 'Stand foto mini dengan motif bow lucu. Cocok untuk foto instax & polaroid. Tersedia 4 warna pilihan.',
-    image: '/products/bow-photo-stand.jpeg',
-    badge: 'Kawaii',
+    "id": 53,
+    "name": "Stand Gamepad PS5",
+    "category": "Gaming Accessories",
+    "price": 25000,
+    "originalPrice": 49000,
+    "description": "Rapikan setup gaming Anda dengan Stand Controller PS5 yang dirancang khusus untuk menyimpan dan menampilkan controller PlayStation 5 dengan aman,…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SS13/WhatsApp%20Image%202026-06-06%20at%2010.37.34%20PM-600x600.jpeg",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=53"
   },
+  {
+    "id": 52,
+    "name": "Wadah Pensil Awan Senyum",
+    "category": "Desk Accessories",
+    "price": 87900,
+    "originalPrice": null,
+    "description": "Percantik meja belajar atau meja kerja Anda dengan Wadah Pensil Awan Senyum yang lucu dan minimalis. Produk ini dibuat menggunakan teknologi 3D…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SS01/WhatsApp%20Image%202026-06-06%20at%206.19.21%20PM-600x600.jpeg",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=52"
+  }
 ];
 
-export const categories = ['Semua', 'Home Decor', 'Desk Accessories', 'Keychain', 'Miniature'];
+export const categories = [
+  "Semua",
+  "Desk Accessories",
+  "Gaming Accessories"
+];
 
 export const galleryImages = [
   { src: '/products/20260515_081726817_ios.webp', label: 'Pallet Coaster', alt: '3D printed pallet coaster set for home decor by Sterna Studio' },
