@@ -8,7 +8,6 @@ import Hero from './components/Hero';
 const About = lazy(() => import('./components/About'));
 const ProductCatalog = lazy(() => import('./components/ProductCatalog'));
 const WhyChooseUs = lazy(() => import('./components/WhyChooseUs'));
-const Gallery = lazy(() => import('./components/Gallery'));
 const CTABanner = lazy(() => import('./components/CTABanner'));
 const FAQ = lazy(() => import('./components/FAQ'));
 const Footer = lazy(() => import('./components/Footer'));
@@ -57,7 +56,6 @@ export default function App() {
                 <About />
                 <ProductCatalog />
                 <WhyChooseUs />
-                <Gallery />
                 <CTABanner />
                 <FAQ />
               </Suspense>

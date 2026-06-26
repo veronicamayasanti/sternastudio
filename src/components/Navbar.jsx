@@ -6,7 +6,6 @@ const navLinks = [
   { label: 'Beranda', href: '#hero' },
   { label: 'Tentang', href: '#about' },
   { label: 'Katalog', href: '#catalog' },
-  { label: 'Gallery', href: '#gallery' },
   { label: 'FAQ', href: '#faq' },
 ];
 
