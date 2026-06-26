@@ -14,7 +14,6 @@ const navLinks = [
   { label: 'Beranda', href: '#hero' },
   { label: 'Tentang Kami', href: '#about' },
   { label: 'Katalog', href: '#catalog' },
-  { label: 'Gallery', href: '#gallery' },
   { label: 'FAQ', href: '#faq' },
 ];
 
