@@ -1,12 +1,12 @@
 // AUTO-GENERATED — do not edit manually.
-// Last synced: 2026-06-27T05:27:21.330Z
+// Last synced: 2026-06-27T05:29:24.567Z
 // Source: https://cart.sternastudio.com
 
 export const products = [
   {
     "id": 72,
     "name": "Tempat Pensil Bentuk Hoodie – Organizer Meja Unik Bahan PLA Print 3D",
-    "category": "Desk Accessories",
+    "category": "Aksesoris Meja",
     "price": 32387,
     "originalPrice": 37382,
     "description": "Buat meja kerja atau meja belajar lebih menarik dengan Tempat Pensil Bentuk Hoodie. Desain unik menyerupai hoodie memberikan tampilan kreatif dan…",
@@ -17,7 +17,7 @@ export const products = [
   {
     "id": 71,
     "name": "Tempat Pensil Bentuk Ban Mobil – Desk Organizer Unik Estetik",
-    "category": "Desk Accessories",
+    "category": "Aksesoris Meja",
     "price": 56430,
     "originalPrice": 62273,
     "description": "Tambahkan sentuhan otomotif pada meja kerja atau setup Anda dengan Pen Holder Tires. Tempat pensil unik berbentuk tumpukan ban ini dirancang untuk…",
@@ -28,7 +28,7 @@ export const products = [
   {
     "id": 70,
     "name": "Stand Apple Magic Keyboard, AirPods & Mouse – Organizer Meja Minimalis Bahan PLA Print 3D",
-    "category": "Computer Accessories",
+    "category": "Aksesoris 3D Print Komputer",
     "price": 39353,
     "originalPrice": null,
     "description": "Rapikan workspace Anda dengan Stand Apple Magic Keyboard, AirPods & Mouse — solusi penyimpanan minimalis untuk menjaga aksesori favorit tetap tersusun…",
@@ -39,7 +39,7 @@ export const products = [
   {
     "id": 69,
     "name": "Sleek Laptop Riser – Stand Laptop Ergonomis Minimalis Bahan PLA Print 3D",
-    "category": "Computer Accessories",
+    "category": "Aksesoris 3D Print Komputer",
     "price": 54658,
     "originalPrice": null,
     "description": "Buat meja kerja lebih nyaman dan modern dengan Sleek Laptop Riser. Dudukan laptop minimalis ini dirancang untuk memberikan sudut elevasi yang lebih…",
@@ -50,7 +50,7 @@ export const products = [
   {
     "id": 68,
     "name": "Honeycomb Keyboard Stand – Dudukan Keyboard Ergonomis Bahan PLA Print 3D",
-    "category": "Computer Accessories",
+    "category": "Aksesoris 3D Print Komputer",
     "price": 40385,
     "originalPrice": null,
     "description": "Tingkatkan kenyamanan dan tampilan setup kerja atau gaming dengan Honeycomb Keyboard Stand. Mengusung desain honeycomb (sarang lebah) yang modern dan…",
@@ -61,7 +61,7 @@ export const products = [
   {
     "id": 67,
     "name": "Keyboard Stand Simple – Dudukan Keyboard Ergonomis Bahan PLA Print 3D",
-    "category": "Computer Accessories",
+    "category": "Aksesoris 3D Print Komputer",
     "price": 36249,
     "originalPrice": null,
     "description": "Tingkatkan kenyamanan saat mengetik dengan Keyboard Stand Simple. Dudukan keyboard minimalis ini dirancang untuk memberikan sudut kemiringan yang…",
@@ -72,7 +72,7 @@ export const products = [
   {
     "id": 66,
     "name": "Stand Controller Xbox Hexagonal – Dudukan Stick Xbox Bahan PLA Print 3D",
-    "category": "Gaming Accessories",
+    "category": "Aksesoris Konsol Game",
     "price": 49540,
     "originalPrice": null,
     "description": "Tampilkan controller Xbox dengan lebih unik menggunakan Stand Controller Xbox Hexagonal. Desain geometris dengan pola hexagonal / sarang lebah…",
@@ -83,7 +83,7 @@ export const products = [
   {
     "id": 65,
     "name": "Rak Game PS4 – Stand Penyimpanan Kaset / Disc PS4 Bahan PLA Print 3D",
-    "category": "Gaming Accessories",
+    "category": "Aksesoris Konsol Game",
     "price": 64450,
     "originalPrice": null,
     "description": "Rapikan koleksi game favorit Anda dengan Rak Game PS4 yang dirancang untuk menyimpan kaset atau box game PlayStation 4 secara lebih teratur dan mudah…",
@@ -94,7 +94,7 @@ export const products = [
   {
     "id": 64,
     "name": "Holder Stick PS3 – Dudukan Controller PS3 Minimalis Bahan PLA Print 3D",
-    "category": "Gaming Accessories",
+    "category": "Aksesoris Konsol Game",
     "price": 29500,
     "originalPrice": 30500,
     "description": "Simpan dan tampilkan controller favorit Anda dengan Holder Stick PS3 yang dirancang khusus untuk controller PlayStation 3. Desain minimalis dengan…",
@@ -105,7 +105,7 @@ export const products = [
   {
     "id": 63,
     "name": "Holder Stick Xbox Series – Dudukan Controller Xbox Anti Slip Bahan PLA Print 3D",
-    "category": "Gaming Accessories",
+    "category": "Aksesoris Konsol Game",
     "price": 38000,
     "originalPrice": null,
     "description": "Jaga controller tetap rapi dan terlindungi dengan Holder Stick Xbox Series. Dirancang khusus untuk menopang controller Xbox dengan posisi stabil,…",
@@ -116,7 +116,7 @@ export const products = [
   {
     "id": 61,
     "name": "Stand Holder Stick PS5 – Dudukan Dual Controller PS5",
-    "category": "Gaming Accessories",
+    "category": "Aksesoris Konsol Game",
     "price": 73500,
     "originalPrice": 82500,
     "description": "Rapikan setup gaming Anda dengan Stand Holder Stick PS5 – Dudukan Dual Controller yang dirancang untuk menyimpan 2 controller PS5 sekaligus dalam satu…",
@@ -127,7 +127,7 @@ export const products = [
   {
     "id": 60,
     "name": "Stand Controller Nintendo Switch 2 & Switch Bentuk Warp Pipe",
-    "category": "Gaming Accessories",
+    "category": "Aksesoris Konsol Game",
     "price": 54500,
     "originalPrice": 58500,
     "description": "Buat setup gaming lebih seru dengan Stand Controller Nintendo Switch 2 & Switch Bentuk Warp Pipe. Terinspirasi dari desain pipa ikonik game klasik,…",
@@ -138,7 +138,7 @@ export const products = [
   {
     "id": 59,
     "name": "Stand Controller PS5 Simple – Holder Stick PS5 Minimalis",
-    "category": "Gaming Accessories",
+    "category": "Aksesoris Konsol Game",
     "price": 39000,
     "originalPrice": 49500,
     "description": "Rapikan dan tampilkan controller PS5 Anda dengan Stand Controller PS5 Simple. Desain minimalis dan modern membuat meja gaming terlihat lebih bersih,…",
@@ -149,7 +149,7 @@ export const products = [
   {
     "id": 58,
     "name": "Holder Stick PS4 Bentuk Bantal",
-    "category": "Gaming Accessories",
+    "category": "Aksesoris Konsol Game",
     "price": 59800,
     "originalPrice": null,
     "description": "Simpan dan pajang controller PS4 dengan lebih rapi menggunakan Holder Stick PS4 Bentuk Bantal. Desain unik menyerupai bantal membuat tampilan meja…",
@@ -160,7 +160,7 @@ export const products = [
   {
     "id": 57,
     "name": "Penyangga Buku Ikonik The Beatles",
-    "category": "Desk Accessories",
+    "category": "Aksesoris Meja",
     "price": 45987,
     "originalPrice": 48769,
     "description": "Tambahkan sentuhan musik klasik dan estetika unik ke rak buku Anda dengan Penyangga Buku Ikonik The Beatles. Terinspirasi dari siluet legendaris yang…",
@@ -171,7 +171,7 @@ export const products = [
   {
     "id": 56,
     "name": "Stand Controller Xbox Elite",
-    "category": "Gaming Accessories",
+    "category": "Aksesoris Konsol Game",
     "price": 77800,
     "originalPrice": null,
     "description": "Rapikan dan tampilkan controller gaming Anda dengan lebih elegan menggunakan Xbox Elite Controller Stand dari Sterna Studio. Produk ini dirancang…",
@@ -182,7 +182,7 @@ export const products = [
   {
     "id": 55,
     "name": "Keranjang Dekoratif Serbaguna",
-    "category": "Desk Accessories",
+    "category": "Aksesoris Meja",
     "price": 127500,
     "originalPrice": null,
     "description": "Tambahkan sentuhan manis dan elegan pada meja, rak, atau sudut dekorasi Anda dengan Keranjang Serbaguna Pita dari Sterna Studio. Produk ini merupakan…",
@@ -193,7 +193,7 @@ export const products = [
   {
     "id": 54,
     "name": "Hiasan Meja Kucing Membaca Buku",
-    "category": "Desk Accessories",
+    "category": "Aksesoris Meja",
     "price": 94000,
     "originalPrice": null,
     "description": "Tambahkan sentuhan unik dan artistik pada meja kerja, rak buku, atau sudut dekorasi Anda dengan Patung Kucing Membaca Buku dari Sterna Studio. Produk…",
@@ -204,7 +204,7 @@ export const products = [
   {
     "id": 53,
     "name": "Stand Gamepad PS5",
-    "category": "Gaming Accessories",
+    "category": "Aksesoris Konsol Game",
     "price": 25000,
     "originalPrice": 49000,
     "description": "Rapikan setup gaming Anda dengan Stand Controller PS5 yang dirancang khusus untuk menyimpan dan menampilkan controller PlayStation 5 dengan aman,…",
@@ -215,7 +215,7 @@ export const products = [
   {
     "id": 52,
     "name": "Wadah Pensil Awan Senyum",
-    "category": "Desk Accessories",
+    "category": "Aksesoris Meja",
     "price": 87900,
     "originalPrice": null,
     "description": "Percantik meja belajar atau meja kerja Anda dengan Wadah Pensil Awan Senyum yang lucu dan minimalis. Produk ini dibuat menggunakan teknologi 3D…",
@@ -226,7 +226,7 @@ export const products = [
   {
     "id": 51,
     "name": "Mac Mini M4 Stand Holder – Dudukan Vertikal Praktis & Ergonomis",
-    "category": "Computer Accessories",
+    "category": "Aksesoris 3D Print Komputer",
     "price": 39000,
     "originalPrice": 85000,
     "description": "Tombol power yang berada di bagian bawah Mac Mini M4 sering kali menyulitkan saat ingin menyalakan atau mematikan perangkat. Dengan Mac Mini M4 Stand…",
@@ -237,7 +237,7 @@ export const products = [
   {
     "id": 50,
     "name": "Holder Disc PS5",
-    "category": "Gaming Accessories",
+    "category": "Aksesoris Konsol Game",
     "price": 55000,
     "originalPrice": 85000,
     "description": "Holder Disc Game PS5 adalah solusi praktis untuk menyimpan koleksi disc game PlayStation 5 agar tetap rapi, aman, dan mudah diakses. Dirancang dengan…",
@@ -249,9 +249,9 @@ export const products = [
 
 export const categories = [
   "Semua",
-  "Computer Accessories",
-  "Desk Accessories",
-  "Gaming Accessories"
+  "Aksesoris 3D Print Komputer",
+  "Aksesoris Konsol Game",
+  "Aksesoris Meja"
 ];
 
 export const galleryImages = [

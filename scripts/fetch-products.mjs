@@ -41,16 +41,6 @@ function extractStaticExports(existingContent) {
 }
 
 // Derive category label from SternaCart category name
-function normalizeCategory(rawCategory) {
-  const lower = rawCategory.toLowerCase();
-  if (lower.includes('keychain') || lower.includes('gantungan')) return 'Keychain';
-  if (lower.includes('konsol') || lower.includes('game')) return 'Gaming Accessories';
-  if (lower.includes('komputer') || lower.includes('computer')) return 'Computer Accessories';
-  if (lower.includes('meja') || lower.includes('desk') || lower.includes('pensil') || lower.includes('organizer')) return 'Desk Accessories';
-  if (lower.includes('hiasan') || lower.includes('dekor') || lower.includes('keranjang') || lower.includes('home') || lower.includes('rumah') || lower.includes('buku')) return 'Home Decor';
-  if (lower.includes('miniatur') || lower.includes('figure') || lower.includes('collectible')) return 'Miniature';
-  return rawCategory || 'Lainnya';
-}
 
 async function main() {
   console.log('Fetching products from SternaCart...');
@@ -85,7 +75,7 @@ async function main() {
   const products = data.products.map((p) => ({
     id: p.id,
     name: decodeHtml(p.name),
-    category: normalizeCategory(p.category),
+    category: p.category,
     price: p.special !== null ? p.special : p.price,
     originalPrice: p.special !== null ? p.price : null,
     description: truncate(decodeHtml(p.description ?? ''), 150),
