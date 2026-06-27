@@ -1,5 +1,5 @@
 // AUTO-GENERATED — do not edit manually.
-// Last synced: 2026-06-27T05:29:24.567Z
+// Last synced: 2026-06-27T05:33:04.520Z
 // Source: https://cart.sternastudio.com
 
 export const products = [
@@ -273,7 +273,7 @@ export const faqs = [
   {
     id: 1,
     question: 'Apakah bisa custom atau request desain sendiri?',
-    answer: 'Saat ini Sterna Studio belum menerima custom order. Semua produk yang tersedia adalah koleksi yang sudah kami siapkan. Pantau terus update kami untuk koleksi terbaru!',
+    answer: 'Bisa banget! Kamu bebas request desain apapun — bahkan bawa file desainmu sendiri dan kami cetak untukmu. Punya ide unik atau butuh produk personal? Hubungi kami lewat WhatsApp dan wujudkan imajinasimu jadi nyata!',
   },
   {
     id: 2,
