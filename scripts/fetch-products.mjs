@@ -44,8 +44,9 @@ function extractStaticExports(existingContent) {
 function normalizeCategory(rawCategory) {
   const lower = rawCategory.toLowerCase();
   if (lower.includes('keychain') || lower.includes('gantungan')) return 'Keychain';
-  if (lower.includes('game') || lower.includes('konsol') || lower.includes('controller') || lower.includes('ps5') || lower.includes('ps4') || lower.includes('xbox')) return 'Gaming Accessories';
-  if (lower.includes('desk') || lower.includes('meja') || lower.includes('pensil') || lower.includes('organizer') || lower.includes('komputer') || lower.includes('stand') || lower.includes('holder') || lower.includes('mac')) return 'Desk Accessories';
+  if (lower.includes('konsol') || lower.includes('game')) return 'Gaming Accessories';
+  if (lower.includes('komputer') || lower.includes('computer')) return 'Computer Accessories';
+  if (lower.includes('meja') || lower.includes('desk') || lower.includes('pensil') || lower.includes('organizer')) return 'Desk Accessories';
   if (lower.includes('hiasan') || lower.includes('dekor') || lower.includes('keranjang') || lower.includes('home') || lower.includes('rumah') || lower.includes('buku')) return 'Home Decor';
   if (lower.includes('miniatur') || lower.includes('figure') || lower.includes('collectible')) return 'Miniature';
   return rawCategory || 'Lainnya';

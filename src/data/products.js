@@ -1,5 +1,5 @@
 // AUTO-GENERATED — do not edit manually.
-// Last synced: 2026-06-26T21:07:03.135Z
+// Last synced: 2026-06-27T05:27:21.330Z
 // Source: https://cart.sternastudio.com
 
 export const products = [
@@ -28,7 +28,7 @@ export const products = [
   {
     "id": 70,
     "name": "Stand Apple Magic Keyboard, AirPods & Mouse – Organizer Meja Minimalis Bahan PLA Print 3D",
-    "category": "Desk Accessories",
+    "category": "Computer Accessories",
     "price": 39353,
     "originalPrice": null,
     "description": "Rapikan workspace Anda dengan Stand Apple Magic Keyboard, AirPods & Mouse — solusi penyimpanan minimalis untuk menjaga aksesori favorit tetap tersusun…",
@@ -39,7 +39,7 @@ export const products = [
   {
     "id": 69,
     "name": "Sleek Laptop Riser – Stand Laptop Ergonomis Minimalis Bahan PLA Print 3D",
-    "category": "Desk Accessories",
+    "category": "Computer Accessories",
     "price": 54658,
     "originalPrice": null,
     "description": "Buat meja kerja lebih nyaman dan modern dengan Sleek Laptop Riser. Dudukan laptop minimalis ini dirancang untuk memberikan sudut elevasi yang lebih…",
@@ -50,7 +50,7 @@ export const products = [
   {
     "id": 68,
     "name": "Honeycomb Keyboard Stand – Dudukan Keyboard Ergonomis Bahan PLA Print 3D",
-    "category": "Desk Accessories",
+    "category": "Computer Accessories",
     "price": 40385,
     "originalPrice": null,
     "description": "Tingkatkan kenyamanan dan tampilan setup kerja atau gaming dengan Honeycomb Keyboard Stand. Mengusung desain honeycomb (sarang lebah) yang modern dan…",
@@ -61,7 +61,7 @@ export const products = [
   {
     "id": 67,
     "name": "Keyboard Stand Simple – Dudukan Keyboard Ergonomis Bahan PLA Print 3D",
-    "category": "Desk Accessories",
+    "category": "Computer Accessories",
     "price": 36249,
     "originalPrice": null,
     "description": "Tingkatkan kenyamanan saat mengetik dengan Keyboard Stand Simple. Dudukan keyboard minimalis ini dirancang untuk memberikan sudut kemiringan yang…",
@@ -226,7 +226,7 @@ export const products = [
   {
     "id": 51,
     "name": "Mac Mini M4 Stand Holder – Dudukan Vertikal Praktis & Ergonomis",
-    "category": "Desk Accessories",
+    "category": "Computer Accessories",
     "price": 39000,
     "originalPrice": 85000,
     "description": "Tombol power yang berada di bagian bawah Mac Mini M4 sering kali menyulitkan saat ingin menyalakan atau mematikan perangkat. Dengan Mac Mini M4 Stand…",
@@ -249,6 +249,7 @@ export const products = [
 
 export const categories = [
   "Semua",
+  "Computer Accessories",
   "Desk Accessories",
   "Gaming Accessories"
 ];
