@@ -1,8 +1,41 @@
 // AUTO-GENERATED — do not edit manually.
-// Last synced: 2026-06-27T05:34:49.038Z
+// Last synced: 2026-06-27T10:13:56.232Z
 // Source: https://cart.sternastudio.com
 
 export const products = [
+  {
+    "id": 75,
+    "name": "Watch Holder | Stand Jam Tangan | Dudukan Display Smartwatch & Jam Tangan 3D Print",
+    "category": "Dudukan dan Docking Charger Jam Tangan",
+    "price": 15430,
+    "originalPrice": null,
+    "description": "Simpan dan tampilkan jam tangan dengan lebih rapi menggunakan Watch Holder / Stand Jam Tangan. Desain minimalis membantu menjaga jam tetap tertata…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SS04/jamholder-600x600.jpeg",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=75"
+  },
+  {
+    "id": 74,
+    "name": "Charging Stand Huawei Watch Fit 4 / Pro | Dock Dudukan Charger Smartwatch | Stand Charger 3D Print",
+    "category": "Dudukan dan Docking Charger Jam Tangan",
+    "price": 28497,
+    "originalPrice": null,
+    "description": "Rapikan area pengisian daya smartwatch dengan Charging Stand Huawei Watch Fit 4 / Pro. Dudukan charger ini dirancang untuk membantu posisi pengisian…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD25/WhatsApp%20Image%202026-06-20%20at%208.15.40%20PM-600x600.jpeg",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=74"
+  },
+  {
+    "id": 73,
+    "name": "Tempat Pensil Kaktus | Cactus Pen Holder | Organizer Meja Estetik 3D Print",
+    "category": "Aksesoris Meja",
+    "price": 36540,
+    "originalPrice": null,
+    "description": "Hadirkan sentuhan unik dan segar di meja kerja atau meja belajar dengan Tempat Pensil Bentuk Kaktus. Desain minimalis dengan detail menyerupai tanaman…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD30/2-600x600.jpeg",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=73"
+  },
   {
     "id": 72,
     "name": "Tempat Pensil Bentuk Hoodie – Organizer Meja Unik Bahan PLA Print 3D",
@@ -251,7 +284,8 @@ export const categories = [
   "Semua",
   "Aksesoris 3D Print Komputer",
   "Aksesoris Konsol Game",
-  "Aksesoris Meja"
+  "Aksesoris Meja",
+  "Dudukan dan Docking Charger Jam Tangan"
 ];
 
 export const galleryImages = [
