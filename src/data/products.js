@@ -1,5 +1,5 @@
 // AUTO-GENERATED — do not edit manually.
-// Last synced: 2026-06-27T05:33:04.520Z
+// Last synced: 2026-06-27T05:34:49.038Z
 // Source: https://cart.sternastudio.com
 
 export const products = [
@@ -278,7 +278,7 @@ export const faqs = [
   {
     id: 2,
     question: 'Bagaimana cara memesan produk?',
-    answer: 'Pemesanan dilakukan langsung melalui WhatsApp. Klik tombol "Pesan via WhatsApp" pada produk yang kamu inginkan, lalu kami akan langsung merespon pesananmu dengan cepat.',
+    answer: 'Gampang banget! Kamu bisa pesan lewat Shopee, TikTok Shop, atau langsung klik tombol "Beli" di halaman produk ini. Mau lebih personal? Hubungi kami langsung via WhatsApp — kami siap merespon cepat dan bantu kamu sampai pesanan selesai!',
   },
   {
     id: 3,
