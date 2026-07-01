@@ -1,8 +1,206 @@
 // AUTO-GENERATED — do not edit manually.
-// Last synced: 2026-06-27T10:13:56.232Z
+// Last synced: 2026-07-01T14:06:03.914Z
 // Source: https://cart.sternastudio.com
 
 export const products = [
+  {
+    "id": 93,
+    "name": "Organizer Kuas Makeup Pita 3D Print – Tempat Brush Makeup Estetik Warna Putih",
+    "category": "Aksesoris Meja",
+    "price": 111060,
+    "originalPrice": null,
+    "description": "Percantik meja rias Anda dengan Organizer Kuas Makeup Pita hasil 3D Print yang memiliki desain elegan dengan detail pita dan bentuk bergelombang yang…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD49/a5aa2952603d6a5e-600x600.png",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=93"
+  },
+  {
+    "id": 92,
+    "name": "Hiasan Dinding Salib Tulisan JESUS 3D Print – Dekorasi Dinding Religi Minimalis",
+    "category": "Hiasan Dinding",
+    "price": 22300,
+    "originalPrice": 24360,
+    "description": "Hadirkan dekorasi yang sederhana namun penuh makna dengan Hiasan Dinding Salib Tulisan JESUS hasil 3D Print. Menggabungkan bentuk salib dengan tulisan…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD48/2025-03-02_8e6b8080e8fcd-600x600.png",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=92"
+  },
+  {
+    "id": 91,
+    "name": "Hiasan Dinding Siluet Yesus dengan Salib 3D Print – Dekorasi Dinding Religi Minimalis",
+    "category": "Hiasan Dinding",
+    "price": 25800,
+    "originalPrice": 27360,
+    "description": "Tambahkan sentuhan tenang dan penuh makna ke dalam ruangan dengan Hiasan Dinding Siluet Yesus dengan Salib hasil 3D Print. Menggabungkan desain…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD47/f3a7ca1907406cb3-600x600.png",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=91"
+  },
+  {
+    "id": 90,
+    "name": "Hiasan Dinding Yesus Berdoa 3D Print – Dekorasi Dinding Religi Minimalis",
+    "category": "Hiasan Dinding",
+    "price": 19050,
+    "originalPrice": null,
+    "description": "Hadirkan suasana tenang dan penuh makna ke dalam ruangan dengan Hiasan Dinding Yesus Berdoa hasil 3D Print. Menggunakan desain siluet artistik dengan…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD46/1e557940d99e9de1-600x600.png",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=90"
+  },
+  {
+    "id": 89,
+    "name": "Hiasan Dinding Yesus Mengulurkan Tangan 3D Print – Dekorasi Dinding Religi Minimalis",
+    "category": "Hiasan Dinding",
+    "price": 21550,
+    "originalPrice": null,
+    "description": "Hadirkan suasana damai dan sentuhan estetika ke ruangan Anda dengan Hiasan Dinding Yesus Mengulurkan Tangan hasil 3D Print. Menggunakan desain siluet…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD45/f4f6e47f94ef12a5-600x600.png",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=89"
+  },
+  {
+    "id": 88,
+    "name": "Keyboard Riser Stand Heart – Penyangga Keyboard Estetik",
+    "category": "Aksesoris 3D Print Komputer",
+    "price": 25280,
+    "originalPrice": null,
+    "description": "Buat setup meja menjadi lebih rapi dan manis dengan Keyboard Riser Stand Heart. Desain minimalis dipadukan dengan detail motif hati memberikan…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD43/2025-03-27_26de14f6e0e6b-600x600.png",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=88"
+  },
+  {
+    "id": 87,
+    "name": "Parametric Keyboard Stand – Penyangga Keyboard Minimalis",
+    "category": "Aksesoris 3D Print Komputer",
+    "price": 26668,
+    "originalPrice": null,
+    "description": "Rapikan dan tampilkan keyboard favoritmu dengan Parametric Keyboard Stand. Desain minimalis dan modern membuat keyboard tetap berdiri dengan stabil…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD42/2025-10-22_eb92bdddf02fb8-600x600.png",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=87"
+  },
+  {
+    "id": 86,
+    "name": "Plakat Dekoratif Grand Theft Auto V – Pajangan Meja Gaming Estetik | 3D Print PLA | Dekorasi Setup Gamer",
+    "category": "Aksesoris Meja",
+    "price": 28600,
+    "originalPrice": null,
+    "description": "Lengkapi meja gaming atau ruang koleksi dengan Plakat Dekoratif Grand Theft Auto V. Mengusung desain ikonik bertema game dengan tampilan modern dan…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD41/2024-04-08_26e17e03bada8-600x600.png",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=86"
+  },
+  {
+    "id": 85,
+    "name": "Plakat Dekoratif GTA VI – Pajangan Meja Gaming 3D Print",
+    "category": "Aksesoris Meja",
+    "price": 37900,
+    "originalPrice": null,
+    "description": "Tambahkan sentuhan dekorasi bertema gaming pada meja kerja, meja setup, atau rak koleksi dengan Plakat Dekoratif GTA VI. Dibuat menggunakan teknologi…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD40/ChatGPT%20Image%2028%20Jun%202026,%2016.14.51-600x600.png",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=85"
+  },
+  {
+    "id": 84,
+    "name": "Plakat Dekoratif GTA VI | Pajangan Meja Aesthetic PLA 3D Print",
+    "category": "Aksesoris Meja",
+    "price": 21960,
+    "originalPrice": null,
+    "description": "Hadirkan nuansa gaming ikonik ke meja kerja, rak, atau setup gaming dengan Plakat Dekoratif GTA VI. Desain modern dengan tulisan bergaya khas game…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD39/ChatGPT%20Image%2028%20Jun%202026,%2015.07.12-600x600.png",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=84"
+  },
+  {
+    "id": 83,
+    "name": "Figura Dekorasi Aesthetic Gnome Minimalis – Pajangan Meja 3D Print PLA",
+    "category": "Aksesoris Meja",
+    "price": 25560,
+    "originalPrice": null,
+    "description": "Tambahkan sentuhan hangat dan dekoratif ke ruangan dengan Figura Dekorasi Aesthetic Gnome Minimalis. Mengusung desain karakter gnome bergaya simpel…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SS05/1-600x600.jpeg",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=83"
+  },
+  {
+    "id": 82,
+    "name": "Bookend / Penyangga Buku Aesthetic Pohon Kelapa – Dekorasi Rak Buku 3D Print PLA",
+    "category": "Aksesoris Meja",
+    "price": 33480,
+    "originalPrice": 36840,
+    "description": "Hadirkan nuansa santai dan tropis ke rak buku dengan Bookend / Penyangga Buku Aesthetic Model Pohon Kelapa. Desain unik berbentuk siluet pohon kelapa…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD37/2023-10-26_zjhoaapgwnxn-600x600.png",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=82"
+  },
+  {
+    "id": 81,
+    "name": "Bookend / Penyangga Buku Aesthetic Kucing Minimalis – Dekorasi Rak Buku 3D Print PLA",
+    "category": "Aksesoris Meja",
+    "price": 24410,
+    "originalPrice": null,
+    "description": "Percantik rak buku dengan Bookend / Penyangga Buku Aesthetic Kucing Minimalis. Mengusung desain siluet kucing yang tampak sedang bermain di samping…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD36/2024-09-25_acd08cdc05e3f-600x600.png",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=81"
+  },
+  {
+    "id": 80,
+    "name": "Bookend / Penyangga Buku Aesthetic Model Dragon Ball Z – Dekorasi Rak Buku 3D Print PLA",
+    "category": "Aksesoris Meja",
+    "price": 28220,
+    "originalPrice": null,
+    "description": "Tambahkan sentuhan ikonik ke rak buku dengan Bookend / Penyangga Buku Aesthetic Model Dragon Ball Z. Desain siluet bertema anime ini dibuat…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD35/2026-01-01_53af869c85c82-600x600.png",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=80"
+  },
+  {
+    "id": 79,
+    "name": "Penyangga Buku Aesthetic Tema Harry Potter – Bookend Dekorasi Rak Buku PLA 3D Print",
+    "category": "Aksesoris Meja",
+    "price": 30410,
+    "originalPrice": null,
+    "description": "Hadirkan nuansa magis ke rak buku dengan Penyangga Buku Aesthetic Tema Harry Potter. Desain siluet bertema dunia sihir dengan detail ikonik membuat…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD34/2025-04-19_3a00a19889b0f-600x600.png",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=79"
+  },
+  {
+    "id": 78,
+    "name": "Patung Kucing Miniatur Dekorasi | Figura Kucing Estetik | Pajangan Meja 3D Print",
+    "category": "Aksesoris Meja",
+    "price": 26200,
+    "originalPrice": null,
+    "description": "Tambahkan sentuhan elegan dan unik pada ruangan dengan Patung Kucing Miniatur Dekorasi. Memiliki desain siluet kucing yang estetik dan modern, cocok…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD10/afasf-600x600.jpeg",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=78"
+  },
+  {
+    "id": 77,
+    "name": "Patung Kura-Kura Miniatur Hewan Lucu | Dekorasi Meja Estetik | Figura 3D Print",
+    "category": "Aksesoris Meja",
+    "price": 24530,
+    "originalPrice": null,
+    "description": "Hadirkan dekorasi yang manis dan menggemaskan dengan Patung Kura-Kura Miniatur Hewan Lucu. Desain mini berbentuk kura-kura ini cocok untuk menghias…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD29/dfsd-600x600.jpeg",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=77"
+  },
+  {
+    "id": 76,
+    "name": "Figura Cute Chinese Lion Dance | Pajangan Barongsai Imut | Dekorasi Meja 3D Print",
+    "category": "Aksesoris Meja",
+    "price": 54760,
+    "originalPrice": 56760,
+    "description": "Tambahkan sentuhan budaya dan dekorasi yang menggemaskan dengan Figura Cute Chinese Lion Dance. Terinspirasi dari tarian singa tradisional khas…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD15/gdfd-600x600.jpeg",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=76"
+  },
   {
     "id": 75,
     "name": "Watch Holder | Stand Jam Tangan | Dudukan Display Smartwatch & Jam Tangan 3D Print",
@@ -147,6 +345,17 @@ export const products = [
     "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=63"
   },
   {
+    "id": 62,
+    "name": "Stand Holder Stick Xbox – Dudukan Dual Controller Xbox Bahan PLA Print 3D",
+    "category": "Aksesoris Konsol Game",
+    "price": 73500,
+    "originalPrice": 82500,
+    "description": "Simpan dan tampilkan controller Xbox dengan lebih rapi menggunakan Stand Holder Stick Xbox – Dudukan Dual Controller. Dirancang untuk menampung 2…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SS17/WhatsApp%20Image%202026-06-08%20at%208.09.55%20PM-600x600.jpeg",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=62"
+  },
+  {
     "id": 61,
     "name": "Stand Holder Stick PS5 – Dudukan Dual Controller PS5",
     "category": "Aksesoris Konsol Game",
@@ -285,7 +494,8 @@ export const categories = [
   "Aksesoris 3D Print Komputer",
   "Aksesoris Konsol Game",
   "Aksesoris Meja",
-  "Dudukan dan Docking Charger Jam Tangan"
+  "Dudukan dan Docking Charger Jam Tangan",
+  "Hiasan Dinding"
 ];
 
 export const galleryImages = [
