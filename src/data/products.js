@@ -1,8 +1,19 @@
 // AUTO-GENERATED — do not edit manually.
-// Last synced: 2026-07-01T14:06:03.914Z
+// Last synced: 2026-07-02T14:59:55.096Z
 // Source: https://cart.sternastudio.com
 
 export const products = [
+  {
+    "id": 94,
+    "name": "Organizer Kuas Makeup Pita Estetik 3D Print | Tempat Brush Makeup & Alat Kosmetik",
+    "category": "Aksesoris Meja",
+    "price": 54050,
+    "originalPrice": 61260,
+    "description": "Organizer kuas makeup pita estetik ini dibuat dengan menggunakan teknologi 3D printing dan bahan PLA yang ramah lingkungan.\r\n\r\nSuitable untuk…",
+    "image": "https://cart.sternastudio.com/image/cache/catalog/product/SSD51/38c3148547f38577-600x600.png",
+    "badge": null,
+    "cartUrl": "https://cart.sternastudio.com/index.php?route=product/product&language=id-id&product_id=94"
+  },
   {
     "id": 93,
     "name": "Organizer Kuas Makeup Pita 3D Print – Tempat Brush Makeup Estetik Warna Putih",
